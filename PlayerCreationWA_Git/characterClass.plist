@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>OfficeWorker</key>
+        <dict>
+            <key>ClassPosibilityRangeStart</key>
+            <integer>0</integer>
+            <key>ClassPosibilityRangeStop</key>
+            <integer>50</integer>
+            <key>Name</key>
+            <string>John Office</string>
+            <key>Happiness</key>
+            <integer>100</integer>
+        </dict>
+        <key>RetailSalesPerson</key>
+        <dict>
+            <key>ClassPosibilityRangeStart</key>
+            <integer>51</integer>
+            <key>ClassPosibilityRangeStop</key>
+            <integer>100</integer>
+            <key>Name</key>
+            <string>John Retail</string>
+            <key>Happiness</key>
+            <integer>120</integer>
+        </dict>
+    </dict>
+</plist>

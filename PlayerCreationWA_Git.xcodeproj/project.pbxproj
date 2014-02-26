@@ -21,6 +21,7 @@
 		4A4F569418BE947000BB648C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4F567618BE947000BB648C /* UIKit.framework */; };
 		4A4F569C18BE947000BB648C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A4F569A18BE947000BB648C /* InfoPlist.strings */; };
 		4A4F569E18BE947000BB648C /* PlayerCreationWA_GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4F569D18BE947000BB648C /* PlayerCreationWA_GitTests.m */; };
+		4A8E94B418BEB14900FDE361 /* characterClass.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E94B318BEB14900FDE361 /* characterClass.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4A4F569918BE947000BB648C /* PlayerCreationWA_GitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayerCreationWA_GitTests-Info.plist"; sourceTree = "<group>"; };
 		4A4F569B18BE947000BB648C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A4F569D18BE947000BB648C /* PlayerCreationWA_GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerCreationWA_GitTests.m; sourceTree = "<group>"; };
+		4A8E94B318BEB14900FDE361 /* characterClass.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = characterClass.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				4A4F567B18BE947000BB648C /* InfoPlist.strings */,
 				4A4F567E18BE947000BB648C /* main.m */,
 				4A4F568018BE947000BB648C /* PlayerCreationWA_Git-Prefix.pch */,
+				4A8E94B318BEB14900FDE361 /* characterClass.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4F568B18BE947000BB648C /* Images.xcassets in Resources */,
+				4A8E94B418BEB14900FDE361 /* characterClass.plist in Resources */,
 				4A4F567D18BE947000BB648C /* InfoPlist.strings in Resources */,
 				4A4F568618BE947000BB648C /* Main.storyboard in Resources */,
 			);
@@ -460,6 +464,7 @@
 				4A4F56A318BE947000BB648C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A4F56A418BE947000BB648C /* Build configuration list for PBXNativeTarget "PlayerCreationWA_GitTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				4A4F56A618BE947000BB648C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

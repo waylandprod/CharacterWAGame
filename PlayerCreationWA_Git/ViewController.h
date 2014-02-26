@@ -9,7 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-// test git
-
-
+{
+    IBOutlet UILabel *label;
+    IBOutlet UILabel *characterClassLabel;
+    IBOutlet UILabel *testField;
+    
+    NSDictionary *characterClass;
+    NSDictionary *RetailSalesPerson;
+    NSDictionary *OfficeWorker;
+    NSArray *posibility;
+    NSArray *name;
+    NSArray *happiness;
+}
 @end
